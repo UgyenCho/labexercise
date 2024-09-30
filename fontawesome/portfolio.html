@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome/fontawesome.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#" lo><img src="/fontawesome/Picture/uc-logo-monogram-letter-design-vector-36726196.jpg" width="50" height="50"> Ugyen Choden</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- About Section -->
+<section id="about" class="text-center">
+    <div class="container">
+        <img src="/fontawesome/Picture/9415dfb2-8b4b-4818-acad-11a91c3b151a.jpeg" height="300" width="300">
+        <h2 class="text-center">About Me</h2>
+        <p class="text-center">I am a web developer specialized in creating interactive applications with a focus on user experience. My journey began with a passion for coding, and it has evolved into a commitment to delivering high-quality web solutions.</p>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="p-5">
+    <div class="container">
+        <h2 class="text-center">Skills</h2>
+        <img src="/fontawesome/Picture/html-head.jpg" height="150" width="160" alt="">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h5><i class="fab fa-html5"></i> HTML</h5>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5><i class="fab fa-css3-alt"></i> CSS</h5>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5><i class="fab fa-js"></i> JavaScript</h5>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 75%;">75%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="p-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Portfolio</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/project1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Description of project 1.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/project2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Description of project 2.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/project3.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Description of project 3.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="p-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center p-4 bg-dark text-white">
+    <div>
+        <ul class="list-unstyled d-flex justify-content-center">
+            <li class="ms-3"><a href="#" class="text-white"><i class="fab fa-github"></i></a></li>
+            <li class="ms-3"><a href="#" class="text-white"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <p>&copy; 2023 John Doe</p>
+    </div>
+</footer>
+
+<script src="/bootstrap/js/bootstrap.bundle.js"></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
